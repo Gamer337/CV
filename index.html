@@ -11,7 +11,29 @@
 <title>Circulam Vitae</title>
 </head>
 <body>
-    <div class="jumbotron jumbotron-fluid bg-primary text-white text-center">
+    <nav class="navbar navbar-toggleable-md navbar-expand-md navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand" href="#">
+                <img src="bootstrap-fill.svg" width="30" height="30" alt="">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#mainNav" aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="mainNav">
+                <div class="navbar-nav mr-auto mt-2 mt-lg-0">
+                    <a class="nav-item nav-link display-5" href="#elon">Education</a>
+                    <a class="nav-item nav-link display-5" href="#panthar">Projects</a>
+                    <a class="nav-item nav-link display-5" href="#avenger">Achievements</a>
+                    <a class="nav-item nav-link display-5" href="#captain">Contacts</a>
+                </div>
+                <form class="form-inline my-2 my-lg-0">
+                    <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+                </form>
+            </div>
+        </div>
+    </nav>
+    <div class="jumbotron jumbotron-fluid bg-info text-white text-center">
         <div class="container">
             <!--<img src="img/3.png" alt="image" class="rounded-circle position-left">-->
             <h1 class="display-3">Welcome to the CV</h1>
@@ -19,7 +41,7 @@
         </div>
     </div>
     <div class="container">
-        <h3 class="display-4">Objective</h3>
+        <h3 class="display-4">Objective</h3><br />
         <p class="Lead" id="p1">
             Seeking an entry-level position to begin my career in a high-level organization to utilize my technical, database, and management skills for the growth of the organization as well as to enhance my knowledge about new and emerging trends in the IT sector.
         </p>
@@ -77,7 +99,7 @@
                 </p>
             </div>
         </div>
-        <h3 class="display-4 text-left py-5 my-4">Education</h3>
+        <h3 class="display-4 text-left py-5 my-4" id="elon">Education</h3>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">Master of Computer Application</h5>
@@ -110,7 +132,7 @@
         </div>
     </div>
     <div class="container">
-        <h3 class="display-4 text-left py-5 my-4">Projects</h3>
+        <h3 class="display-4 text-left py-5 my-4" id="panthar">Projects</h3>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">GROCART: The Online Grocery Shop</h5>
@@ -147,7 +169,7 @@
         </div>
     </div>
     <div class="container">
-        <h3 class="display-4 text-left py-5 my-4">Achievements</h3>
+        <h3 class="display-4 text-left py-5 my-4" id="avenger">Achievements</h3>
         <div class="card">
             <div class="card-body">
                 <h5 class="card-title">1. Certified Security Professional through Euinac Covers OWASP top 10 topics and CEH.</h5>
@@ -180,7 +202,7 @@
         </div>
     </div>
     <div class="container-fliud bg-dark">
-        <h3 class="display-5 text-left py-5 my-4">Contact Info</h3>
+        <h3 class="display-5 text-left py-5 my-4" id="captain">Contact Info</h3>
     </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
